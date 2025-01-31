@@ -735,8 +735,8 @@ footer {
     }
 
     .image-gallery {
-        display: grid; /* Use CSS Grid for layout */
-        grid-template-columns: repeat(3, 1fr); /* Three columns */
+        display: grid !important; /* Ensure this is present */
+        grid-template-columns: repeat(3, 1fr) !important; /* Define three columns */
         gap: 15px; /* Space between images */
         max-width: 900px; /* Optional: limit max width of gallery */
         margin: 0 auto; /* Center the gallery within the container */
