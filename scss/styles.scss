@@ -723,39 +723,6 @@ footer {
     }
 }
 
-#gallery {
-    padding: 50px 15px; /* Add padding */
-    text-align: center; /* Center the content */
-
-    h2 {
-        color: $heading; /* Heading color */
-        margin-bottom: 30px; /* Space below heading */
-        font-size: 2em; /* Ensure the title is prominent */
-        font-weight: bold; /* Make the title bold for consistency */
-    }
-
-    .image-gallery {
-        display: grid !important; /* Ensure this is present */
-        grid-template-columns: repeat(3, 1fr) !important; /* Define three columns */
-        gap: 15px; /* Space between images */
-        max-width: 900px; /* Optional: limit max width of gallery */
-        margin: 0 auto; /* Center the gallery within the container */
-    }
-
-    .image-item {
-        width: 100%; /* Set width to fill grid cell */
-        height: 300px; /* Set height */
-        overflow: hidden; /* Hide overflow */
-        border-radius: 4px; /* Optional: rounded corners */
-        background-color: #fff; /* Background color for images */
-
-        img {
-            width: 100%; /* Make image fill the container */
-            height: 100%; /* Make image fill the container */
-            object-fit: cover; /* Cover the area without distortion */
-        }
-    }
-}
 
 
 /*
