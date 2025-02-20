@@ -495,6 +495,10 @@ a.hoverline:hover {
   display: table-cell;
 }
 
+#skills .no-wrap {
+  white-space: nowrap;
+}
+
 .card.large .card-content p {
   color: inherit;
   margin: 0;
